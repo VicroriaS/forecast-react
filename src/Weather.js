@@ -3,6 +3,20 @@ import React from "react";
 export default function Weather() {
   return (
     <div className="Weather">
+      <form>
+        <div className="row"></div>
+        <div className="col-9">
+          <input
+            type="search"
+            placeholder="Type the city..."
+            className="form-control"
+          />
+        </div>
+        <div className="col-3">
+          <input type="Submit" value="Search" className="btn btn-primary" />
+        </div>
+      </form>
+
       <h1>Odessa</h1>
       <ul>
         <li>Wednesday 12:00 </li>
